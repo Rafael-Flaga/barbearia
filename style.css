@@ -1,0 +1,198 @@
+:root {
+    --font-principal: 'Montserrat';
+    --font-secundaria: 'Syncopate';
+    --cor-principal: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-principal);
+}
+
+.campos {
+    background: rgba(0, 0, 0, 0.85);
+    height: 20vh;
+}
+
+.lista__header {
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    display: flex;
+    list-style: none;
+}
+
+.lista__header__itens {
+    font-weight: bold;
+    color: var(--cor-principal);
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.lista__header__itens:hover {
+    color: rgba(57, 57, 255, 0.767);
+}
+
+.icones {
+    width: 10%;
+    
+}
+ 
+.container {
+    background-image: url(https://blog.vindi.com.br/wp-content/uploads/2022/06/recorrencia-barbearia-principal.jpg);
+    height: 130vh;   
+    opacity: 1; 
+}
+
+.titulo__principal {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 30.5%;
+    font-family: var(--font-secundaria);
+    font-size: 72px;
+    color: var(--cor-principal);
+}
+
+.faixa {
+    position: absolute;
+    left: 0;
+    margin-left: 3px;
+    background-color: rgba(0, 0, 0, 0.85);
+    width: 45%;
+    height: 85vh;
+}
+
+.nossa__marca {
+    position: absolute;
+    left: 50%;
+    height: 85vh;
+    padding: 15px;
+}
+
+.titulo__secundario {
+    padding: 1em 0 0 0.7em;
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.texto__nossa__marca {
+    font-size: 18px;
+    padding: 2.5em 6em 2.5em 2.2em;
+    font-weight: 580;
+}
+
+.servicos {
+    position: absolute;
+    margin-top: 92.5vh;
+    height: 83vh;
+    width: 100%;
+    opacity: 0.9;
+    background-image: url(https://img.freepik.com/vetores-premium/padrao-sem-emenda-de-elementos-de-cabeleireiro-ilustracao-em-vetor-de-fundo-de-icones-de-doodle-papel-de-parede-o-conceito-de-salao-de-cabeleireiro-e-salao-de-beleza_78677-9537.jpg);
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.titulo__servicos {
+    padding: 1em 0 1em 0;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.lista__servicos {
+    display: flex;
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.lista__servicos li{
+    text-align: center;
+    align-items: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 1em 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.lista__servicos li:hover {
+    border-color: rgba(57, 57, 255, 0.767);; 
+}
+
+.titulo__servicos {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0.1em;
+}
+
+.opcoes__servico {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.preco__servico {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.contato {
+    position: absolute;
+    margin-top: 180vh;
+    margin-left: 4em;
+}
+
+.titulo__contato {
+    font-size: 30px;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label {
+    margin: 0 0 10px;
+    font-size: 20px;
+}
+
+.input__padrao {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: rgba(0, 0, 0, 0.85);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+
+.enviar:hover {
+    background: rgba(0, 0, 0, 0.95);
+}
+
+
+
